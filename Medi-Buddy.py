@@ -79,11 +79,20 @@ if (selected == 'Diabetes Prediction'):
         
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'The person is diabetic'
+          st.success(diab_diagnosis)
+          st.success('PRECAUTIONS:')
+          st.success('Keep your blood pressure and cholesterol under control')
+          st.success('Make a commitment to managing your diabetes')
+          st.success('Dont smoke')
+
+          
+          
         else:
           diab_diagnosis = 'The person is not diabetic'
-        
-    st.success(diab_diagnosis)
+          st.success(diab_diagnosis)
 
+        
+    
 
 
 
