@@ -161,19 +161,20 @@ if (selected == 'Heart Disease Prediction'):
           heart_diagnosis = 'The person is having heart disease'
           st.success(heart_diagnosis)
           
+          st.button('Precautions:')
+          st.button('Eat a heart-healthy diet')
+          st.button('Maintain a healthy weight')
+          st.button('Give up smoking and alcohol')
+          st.button('Keep your blood pressure under control')
           
-          st.success('Precautions:')
-          st.success('Eat a heart-healthy diet')
-          st.success('Maintain a healthy weight')
-          st.success('Give up smoking and alcohol')
-          st.success('Keep your blood pressure under control')
+         
          
                              
                              
         else:
           heart_diagnosis = 'The person does not have any heart disease'
           st.success(heart_diagnosis)
-          st.success('PRECAUTIONS:')
+         
         
     
         
