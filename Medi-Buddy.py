@@ -16,9 +16,9 @@ from streamlit_option_menu import option_menu
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('C:/Users/nandi/Downloads/diabetes_model (3).sav','rb'))
+diabetes_model = pickle.load(open('C:/Users/nandi/OneDrive/Desktop/MEDI-BUDDY/diabetes_model (3).sav','rb'))
 
-heart_disease_model = pickle.load(open('C:/Users/nandi/OneDrive/Desktop/MEDI-BUDDY/saved models/heart_disease_model (1).sav','rb'))
+heart_disease_model = pickle.load(open('C:/Users/nandi/OneDrive/Desktop/MEDI-BUDDY/heart_disease_model (1).sav','rb'))
 
 
 
