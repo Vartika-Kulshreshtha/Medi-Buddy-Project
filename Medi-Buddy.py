@@ -78,9 +78,10 @@ if (selected == 'Diabetes Prediction'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
-          diab_diagnosis = 'The person is diabetic'
+          diab_diagnosis = 'THE PERSON IS DIABETIC'
           st.success(diab_diagnosis)
-          st.success('PRECAUTIONS:','Keep your blood pressure and cholesterol under control')
+          st.success('PRECAUTIONS:')
+          st.success('Keep your blood pressure and cholesterol under control')
           st.success('Keep your blood pressure and cholesterol under control')
           st.success('Make a commitment to managing your diabetes')
           st.success('Dont smoke')
@@ -88,7 +89,7 @@ if (selected == 'Diabetes Prediction'):
           
           
         else:
-          diab_diagnosis = 'The person is not diabetic'
+          diab_diagnosis = 'THE PERSON IS NOT DIABETIC'
           st.success(diab_diagnosis)
 
         
