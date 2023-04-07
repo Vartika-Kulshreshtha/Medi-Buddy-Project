@@ -80,7 +80,7 @@ if (selected == 'Diabetes Prediction'):
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'THE PERSON IS DIABETIC'
           st.success(diab_diagnosis)
-          st.success('PRECAUTIONS:')
+          st.success('Precautions')
           st.success('Keep your blood pressure and cholesterol under control')
           st.success('Keep your blood pressure and cholesterol under control')
           st.success('Make a commitment to managing your diabetes')
@@ -158,9 +158,11 @@ if (selected == 'Heart Disease Prediction'):
 
 
         if (heart_prediction[0] == 1):
-          heart_diagnosis = 'THE PERSON IS HAVING HEART DISEASE'
+          heart_diagnosis = 'The person is having heart disease'
           st.success(heart_diagnosis)
-          st.success('PRECAUTIONS:')
+          
+          
+          st.success('Precautions:')
           st.success('Eat a heart-healthy diet')
           st.success('Maintain a healthy weight')
           st.success('Give up smoking and alcohol')
