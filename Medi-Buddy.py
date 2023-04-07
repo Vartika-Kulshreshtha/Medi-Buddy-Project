@@ -80,12 +80,14 @@ if (selected == 'Diabetes Prediction'):
         if (diab_prediction[0] == 1):
           diab_diagnosis = 'THE PERSON IS DIABETIC'
           st.success(diab_diagnosis)
-          st.success('Precautions')
-          st.success('Keep your blood pressure and cholesterol under control')
-          st.success('Keep your blood pressure and cholesterol under control')
-          st.success('Make a commitment to managing your diabetes')
-          st.success('Dont smoke')
-
+          
+          st.button('Precautions:')
+          st.button('Keep your blood pressure and cholesterol under control')
+          st.button('Make a commitment to managing your diabetes')
+          st.button('Dont smoke')
+          
+          
+          
           
           
         else:
