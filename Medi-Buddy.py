@@ -149,6 +149,7 @@ if (selected == 'Heart Disease Prediction'):
 
         if (heart_prediction[0] == 1):
           heart_diagnosis = 'The person is having heart disease'
+          print("PRECAUTIONS")
         else:
           heart_diagnosis = 'The person does not have any heart disease'
         
