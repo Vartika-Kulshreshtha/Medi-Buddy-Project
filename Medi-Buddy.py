@@ -158,7 +158,7 @@ if (selected == 'Heart Disease Prediction'):
 
 
         if (heart_prediction[0] == 1):
-          heart_diagnosis = 'The person is having heart disease'
+          heart_diagnosis = 'THE PERSON IS HAVING HEART DISEASE'
           st.success(heart_diagnosis)
           st.success('PRECAUTIONS:')
           st.success('Eat a heart-healthy diet')
