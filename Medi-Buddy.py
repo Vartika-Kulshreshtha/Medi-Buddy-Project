@@ -78,7 +78,7 @@ if (selected == 'Diabetes Prediction'):
         diab_prediction = diabetes_model.predict([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
         
         if (diab_prediction[0] == 1):
-          diab_diagnosis = 'THE PERSON IS DIABETIC\n happy birthday'
+          diab_diagnosis = 'THE PERSON IS DIABETIC'
           st.success(diab_diagnosis)
           st.success('PRECAUTIONS:')
           st.success('Keep your blood pressure and cholesterol under control')
