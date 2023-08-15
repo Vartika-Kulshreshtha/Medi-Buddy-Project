@@ -7,6 +7,6 @@ Presentation Link: https://drive.google.com/file/d/1zCu8-4sAGkc3ZnfthbFiSjG_X6D0
 Project Report Link: https://drive.google.com/file/d/1y5a7mFSkOr5DdYQww2VdzH6xVyMSJO4V/view?usp=sharing
 
 Dataset Links from Kaggle-
-
 •	Heart Dataset Link: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
 •	Diabetes Dataset Link: https://www.kaggle.com/datasets/mathchi/diabetes-data-set
+
