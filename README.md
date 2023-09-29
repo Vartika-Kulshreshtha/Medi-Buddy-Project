@@ -4,7 +4,7 @@ Website link: https://nandinimadan07-medi-buddy-medi-buddy-b05vnt.streamlit.app/
 
 Presentation Link: https://drive.google.com/file/d/1zCu8-4sAGkc3ZnfthbFiSjG_X6D04o0V/view?usp=sharing 
 
-Project Report Link: https://drive.google.com/file/d/1y5a7mFSkOr5DdYQww2VdzH6xVyMSJO4V/view?usp=sharing
+Project Report Link: [https://drive.google.com/file/d/1y5a7mFSkOr5DdYQww2VdzH6xVyMSJO4V/view?usp=sharing](https://drive.google.com/file/d/1y5a7mFSkOr5DdYQww2VdzH6xVyMSJO4V/view?usp=sharing)
 
 Dataset Links from Kaggle-
 •	Heart Dataset Link: https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
